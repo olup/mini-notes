@@ -1,0 +1,1 @@
+yarn --cwd ./front build && go run gen.go && env GOOS=windows GOARCH=amd64 go build -o dist/mini-notes.exe -ldflags "-X main.environment=production -H=windowsgui"
