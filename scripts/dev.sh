@@ -1,0 +1,1 @@
+go build -o ./dist/notes-dev && ./dist/notes-dev & BROWSER=false yarn --cwd ./front start && fg

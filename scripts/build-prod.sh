@@ -1,0 +1,1 @@
+yarn --cwd ./front build && go run gen.go && go build -o ./dist/notes  -ldflags "-X main.environment=production"

@@ -1,0 +1,52 @@
+{
+  "name": "notes",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/core": "^10.0.22",
+    "@emotion/styled": "^10.0.23",
+    "@rooks/use-mouse": "^3.4.0",
+    "@types/jest": "24.0.23",
+    "@types/node": "12.12.12",
+    "@types/react": "16.9.13",
+    "@types/react-custom-scrollbars": "^4.0.6",
+    "@types/react-dom": "16.9.4",
+    "@types/react-textarea-autosize": "^4.3.5",
+    "@types/simplemde": "^1.11.7",
+    "@types/textarea-caret": "^3.0.0",
+    "dayjs": "^1.8.17",
+    "path": "^0.12.7",
+    "react": "^16.12.0",
+    "react-custom-scrollbars": "^4.2.1",
+    "react-dom": "^16.12.0",
+    "react-hook-mouse": "^1.0.0",
+    "react-scripts": "3.2.0",
+    "react-textarea-autosize": "^7.1.2",
+    "simplemde": "^1.11.2",
+    "textarea-caret": "^3.1.0",
+    "typescript": "3.7.2",
+    "use-debounce": "^3.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "deploy": "rm -rf ../go/www && cp -r ./build ../go/www",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
