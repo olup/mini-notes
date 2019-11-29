@@ -1,11 +1,8 @@
-import React, { useState, useEffect, createRef } from "react";
+import React, { useState, useEffect } from "react";
 import styled from "@emotion/styled";
-import Textarea from "react-textarea-autosize";
-import getCaretCoordinates from "textarea-caret";
 import { useDebounce } from "use-debounce";
 import { Scrollbars } from "react-custom-scrollbars";
 import Settings from "./Components/Settings";
-import TextareaAutosize from "react-textarea-autosize";
 import dayjs from "dayjs";
 import FileSelector from "./Components/FileSelector";
 import { basename } from "path";

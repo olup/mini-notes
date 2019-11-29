@@ -77,7 +77,7 @@ export default ({ value = "", onChange, onCursorPositionChange }: Props) => {
 
   return (
     <Container>
-      <textarea id="markdown-editor" />
+      <textarea id="markdown-editor" style={{ display: "none" }} />
     </Container>
   );
 };
